@@ -1,0 +1,18 @@
+export const colors = {
+  white: '#FFFFFF',
+  bg: 'rgba(244, 243, 239, 1)',
+  grey: '#AAAAAA',
+  input: '#E6E6E6',
+  basic: '#444444',
+  bgCard: '#E4D7C7',
+  accent: '#BD9268',
+  hover: '#9E8A6C',
+  hoverInput: '#D9D9D9',
+  pressed: '#CDBCA3',
+  disabled: '#F0DDC8',
+  disabledTag: '#EFE3D9',
+  pressedTag: '#CDBCA3',
+  error: '#E33030',
+  success: '#A4BC42',
+  dropDown: '#FAF9F7',
+};

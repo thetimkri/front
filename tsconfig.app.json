@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ESNext", "DOM", "WebWorker"],
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "noEmit": true,
+    "strict": true,
+    "types": ["node"]
+  },
+  "include": ["src"]
+}

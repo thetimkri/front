@@ -1,0 +1,30 @@
+{
+  "files": [],
+  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@assets/*": ["src/assets/"],
+      "@pages/*": ["src/pages/"],
+      "@shared/*": ["src/shared/"],
+      "@widgets/*": ["src/widgets/"],
+      "@//shared/constants/colors/*": ["src/shared/constants/colors/"],
+      "@navigation/*": ["src/shared/constants/navigation/"]
+    },
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "noEmit": true,
+    "isolatedModules": true,
+    "target": "esnext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "lib": ["ESNext", "DOM", "WebWorker"],
+    "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "types": ["node"]
+  }
+}

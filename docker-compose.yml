@@ -1,0 +1,19 @@
+services:
+  frontend:
+    container_name: ${CONTAINER_NAME}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    command: npm run build
+    volumes:
+      - ./docker/src/dist:/usr/src/app/dist
+    networks:
+      - default
+
+
+networks:
+  default:
+    name: good-news
+    external: True
